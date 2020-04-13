@@ -25,9 +25,8 @@ end
 
 
 
-  def self.scrape_profile_page(profile_url)
-
-
+  def self.scrape_profile_page(profile_u
+    
 
   end
 
