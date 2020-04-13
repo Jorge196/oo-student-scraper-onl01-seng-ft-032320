@@ -13,10 +13,12 @@ class Scraper
       card.css(".student-card a").each do |student_card|
         name = student_card.css(".student-name").text
         location = student_card.css(".student-location").text
-        student_url = student_card.attr("href")
-    binding.pry
+        profile_url = student_card.attr("href")
+        array << {:name => name, :location => location, :profile_url => profile_url}
+    # binding.pry
       end
     end
+    array
     # student name (h4 class="student-name")
 end
 
