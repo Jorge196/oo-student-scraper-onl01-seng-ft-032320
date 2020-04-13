@@ -10,10 +10,12 @@ class Scraper
     html = open(index_url)
     index = Nokogiri::HTML(html)
     index.css("div.roster-cards-container").each do |card|
+      card.css(".student-card a").each do |student_card|
     binding.pry
-  end
+      end
+    end
     # student name (h4 class="student-name")
-  end
+end
 
 
 
