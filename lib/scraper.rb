@@ -9,7 +9,9 @@ class Scraper
 
     html = open(index_url)
     index = Nokogiri::HTML(html)
+    index.css("div.roster-cards-container").each do |card|
     binding.pry
+  end
     # student name (h4 class="student-name")
   end
 
