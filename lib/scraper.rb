@@ -17,8 +17,7 @@ class Scraper
     # student name (h4 class="student-name")
 end
 
-Oh I see
-Is it suppose to come out as children?
+
 
 
   def self.scrape_profile_page(profile_url)
