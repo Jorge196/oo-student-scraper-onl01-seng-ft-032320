@@ -19,14 +19,13 @@ class Scraper
       end
     end
     array
-    # student name (h4 class="student-name")
 end
 
 
 
 
   def self.scrape_profile_page(profile_url)
-    
+
 
 
   end
